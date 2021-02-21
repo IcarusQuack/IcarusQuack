@@ -116,8 +116,8 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
+                href="https://steamcommunity.com/id/icarusquack"
+                className="icon fa-steam-square"
               >
                 <span className="label">GitHub</span>
               </a>
