@@ -5,7 +5,16 @@ module.exports = {
     description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
   },
   plugins: [
+    'gatsby-plugin-fontawesome-css',
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.inline\.svg$/,
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
