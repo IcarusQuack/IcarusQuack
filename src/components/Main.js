@@ -119,7 +119,15 @@ class Main extends React.Component {
                 href="https://steamcommunity.com/id/icarusquack"
                 className="icon fa-steam-square"
               >
-                <span className="label">GitHub</span>
+                <span className="label">Steam</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://open.spotify.com/user/12184413999"
+                className="icon fa-spotify"
+              >
+                <span className="label">Spotify</span>
               </a>
             </li>
           </ul>
