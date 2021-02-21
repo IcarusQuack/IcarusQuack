@@ -73,15 +73,34 @@ class Main extends React.Component {
             urna nisi, fringila lorem et vehicula lacinia quam. Integer
             sollicitudin mauris nec lorem luctus ultrices.
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <ul className="icons">
+            <li>
+              <a
+                href="https://twitter.com/HuntaroSan"
+                className="icon fa-twitter"
+              >
+                <span className="label">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://codebushi.com" className="icon fa-facebook">
+                <span className="label">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://codebushi.com" className="icon fa-instagram">
+                <span className="label">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/codebushi/gatsby-starter-dimension"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
           {close}
         </article>
 
