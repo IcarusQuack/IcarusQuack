@@ -67,10 +67,11 @@ class Main extends React.Component {
             <img src={woah} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            Hey! I don't use social media too much, but here are a few ways that
+            you can follow me! Please let me know before you send me any friend
+            requests because I'll often just ignore any unknown or unsolicitated
+            invites. I'm most active on twitter, so feel free to give me a
+            follow there! I love you, please have a great day 💜
           </p>
           <ul className="icons">
             <li>
