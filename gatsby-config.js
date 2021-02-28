@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Dimension V2',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    title: 'IcarusQuack\'s Website',
+    author: 'Dylan Gammon,
+    description: 'I really hope your dreams come true, please allow yourself to realize them.',
   },
   plugins: [
     'gatsby-plugin-fontawesome-css',
