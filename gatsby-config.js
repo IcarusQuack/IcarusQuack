@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'IcarusQuack\'s Website',
-    author: 'Dylan Gammon,
-    description: 'I really hope your dreams come true, please allow yourself to realize them.',
+    title: "IcarusQuack's Website",
+    author: 'Dylan Gammon',
+    description:
+      'I really hope your dreams come true, please allow yourself to realize them.',
   },
   plugins: [
     'gatsby-plugin-fontawesome-css',
