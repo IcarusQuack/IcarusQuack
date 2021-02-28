@@ -1,8 +1,8 @@
 {
-  "name": "IcarusQuack's Website",
-  "description": "IcarusQuack",
+  "name": "gatsby-starter-dimension-v2",
+  "description": "Gatsby Starter - Dimension V2",
   "version": "1.0.0",
-  "author": "Dylan Gammon",
+  "author": "Hunter Chang",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
