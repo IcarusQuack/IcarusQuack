@@ -164,7 +164,12 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#" data-netlify="true">
+          <form
+            method="post"
+            action="#"
+            data-netlify="true"
+            name="Contact Form"
+          >
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -182,7 +187,7 @@ class Main extends React.Component {
                 <input type="submit" value="Send Message" className="special" />
               </li>
               <li>
-                <input type="reset" value="Reset" />
+                <input type="hidden" name="form-name" value="Contact Form" />
               </li>
             </ul>
           </form>
