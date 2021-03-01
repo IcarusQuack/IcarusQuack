@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic03 from '../images/pic03.jpg'
-import woah from '../images/woah.png'
+import pic01 from '../images/pic01.webp'
+import pic03 from '../images/pic03.webp'
+import woah from '../images/woah.webp'
 
 class Main extends React.Component {
   render() {
