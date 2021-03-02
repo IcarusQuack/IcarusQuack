@@ -35,20 +35,11 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
+            This is a website that I've been working on!! I've had help learning
+            Gatsby from my friend Ky (I'll post a link here when it's live!). I
+            have two frogs and you can check em out at the link below, or feel
+            free to keep looking around!
             <Link to="/frogs">Frogs</Link>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
           </p>
           {close}
         </article>
