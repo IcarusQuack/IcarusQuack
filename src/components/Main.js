@@ -39,7 +39,9 @@ class Main extends React.Component {
             Gatsby from my friend Ky (I'll post a link here when it's live!). I
             have two frogs and you can check em out at the link below, or feel
             free to keep looking around!
-            <Link to="/frogs">Frogs</Link>.
+            <p>
+              <Link to="/frogs">Frogs</Link>.
+            </p>
           </p>
           {close}
         </article>
