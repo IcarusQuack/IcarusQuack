@@ -3,16 +3,18 @@ import React from 'react'
 import pic01 from '../images/pic01.webp'
 import pic03 from '../images/pic03.webp'
 import woah from '../images/woah.webp'
+import { Link } from 'gatsby'
 
 class Main extends React.Component {
   render() {
     let close = (
-      <div
+      <button
+        aria-label="close"
         className="close"
         onClick={() => {
           this.props.onCloseArticle()
         }}
-      ></div>
+      ></button>
     )
 
     return (
@@ -33,11 +35,7 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            <Link to="/frogs">Frogs</Link>.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -71,7 +69,10 @@ class Main extends React.Component {
             you can follow me! Please let me know before you send me any friend
             requests because I'll often just ignore any unknown or unsolicitated
             invites. I'm most active on twitter, so feel free to give me a
-            follow there! I love you, please have a great day 💜
+            follow there! I love you, please have a great day{' '}
+            <span role="img" aria-label="purple heart">
+              💜
+            </span>
           </p>
           <ul className="icons">
             <li>
@@ -84,8 +85,10 @@ class Main extends React.Component {
             </li>
             <li>
               <a
+                href="/#"
                 id="discordButton"
-                onClick={() => {
+                onClick={event => {
+                  event.preventDefault()
                   navigator.clipboard.writeText('IcarusQuack#0001')
                   alert('Discord username has been copied to clipboard!')
                 }}

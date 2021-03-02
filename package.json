@@ -28,7 +28,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gatsby develop"
   },
   "devDependencies": {
     "gatsby-remark-code-buttons": "^2.0.4",

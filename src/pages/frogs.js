@@ -10,7 +10,11 @@ const Frogs = () => {
   return (
     <Layout>
       <h1>These are my frogs, Chicken & Waffles</h1>
-      <p>froge</p>
+      <p>
+        <span role="img" aria-label="frog">
+          🐸
+        </span>
+      </p>
       <Link to="/">Go back to the homepage</Link>
       <TwitchStream
         setShowMessage={setShowMessage}
