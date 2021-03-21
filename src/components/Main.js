@@ -143,11 +143,11 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Hello! My name is Icarus! I'm 26 years old (at the time of writing
-            this). You can use any pronouns. I work full time and live in North
-            Carolina, unfortunately. I enjoy exploring, going out to eat,
-            hanging out with friends, and playing games! Right now I mostly play
-            Final Fantasy XIV and DotA2.
+            Hello! My name is Icarus! I'm 27 years old~ You can use any
+            pronouns. I work full time and live in North Carolina,
+            unfortunately. I enjoy exploring, going out to eat, hanging out with
+            friends, and playing games! Right now I mostly play Final Fantasy
+            XIV and DotA2.
           </p>
           {close}
         </article>
