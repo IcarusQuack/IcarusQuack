@@ -61,7 +61,7 @@ class Main extends React.Component {
             Hey! I don't use social media too much, but here are a few ways that
             you can follow me! Please let me know before you send me any friend
             requests because I'll often just ignore any unknown or unsolicitated
-            invites. I'm most active on twitter, so feel free to give me a
+            invites. I don't use spotify anymore becuase I switched to Tidal! I'm most active on twitter, so feel free to give me a
             follow there! I love you, please have a great day{' '}
             <span role="img" aria-label="purple heart">
               💜
